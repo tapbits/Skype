@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DDD76EC13D747F800D5919E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDD76EB13D747F800D5919E /* Cocoa.framework */; };
+		9219AE3413F4F26E00CB427C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9219AE3213F4F26E00CB427C /* InfoPlist.strings */; };
+		9219AE3713F4F27700CB427C /* Skype.m in Sources */ = {isa = PBXBuildFile; fileRef = 9219AE3613F4F27700CB427C /* Skype.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DDD76E813D747F800D5919E /* Skype.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Skype.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDD76EB13D747F800D5919E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7DDD76EE13D747F800D5919E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7DDD76EF13D747F800D5919E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7DDD76F013D747F800D5919E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9219AE2F13F4F26800CB427C /* Skype-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Skype-Info.plist"; path = "Skype/Skype-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9219AE3013F4F26800CB427C /* Skype-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Skype-Prefix.pch"; path = "Skype/Skype-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		9219AE3313F4F26E00CB427C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Skype/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		9219AE3513F4F27700CB427C /* Skype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Skype.h; path = Skype/Skype.h; sourceTree = SOURCE_ROOT; };
+		9219AE3613F4F27700CB427C /* Skype.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Skype.m; path = Skype/Skype.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DDD76E513D747F800D5919E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDD76EC13D747F800D5919E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DDD76DD13D747F800D5919E = {
+			isa = PBXGroup;
+			children = (
+				7DDD76F113D747F800D5919E /* Skype */,
+				7DDD76EA13D747F800D5919E /* Frameworks */,
+				7DDD76E913D747F800D5919E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DDD76E913D747F800D5919E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DDD76E813D747F800D5919E /* Skype.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DDD76EA13D747F800D5919E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DDD76EB13D747F800D5919E /* Cocoa.framework */,
+				7DDD76ED13D747F800D5919E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DDD76ED13D747F800D5919E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DDD76EE13D747F800D5919E /* AppKit.framework */,
+				7DDD76EF13D747F800D5919E /* CoreData.framework */,
+				7DDD76F013D747F800D5919E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7DDD76F113D747F800D5919E /* Skype */ = {
+			isa = PBXGroup;
+			children = (
+				9219AE3513F4F27700CB427C /* Skype.h */,
+				9219AE3613F4F27700CB427C /* Skype.m */,
+				7DDD76F213D747F800D5919E /* Supporting Files */,
+			);
+			name = Skype;
+			path = Maximizer;
+			sourceTree = "<group>";
+		};
+		7DDD76F213D747F800D5919E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9219AE2F13F4F26800CB427C /* Skype-Info.plist */,
+				9219AE3213F4F26E00CB427C /* InfoPlist.strings */,
+				9219AE3013F4F26800CB427C /* Skype-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DDD76E713D747F800D5919E /* Skype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDD76FA13D747F800D5919E /* Build configuration list for PBXNativeTarget "Skype" */;
+			buildPhases = (
+				7DDD76E413D747F800D5919E /* Sources */,
+				7DDD76E513D747F800D5919E /* Frameworks */,
+				7DDD76E613D747F800D5919E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skype;
+			productName = Maximizer;
+			productReference = 7DDD76E813D747F800D5919E /* Skype.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DDD76DF13D747F800D5919E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7DDD76E213D747F800D5919E /* Build configuration list for PBXProject "Skype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DDD76DD13D747F800D5919E;
+			productRefGroup = 7DDD76E913D747F800D5919E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DDD76E713D747F800D5919E /* Skype */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DDD76E613D747F800D5919E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9219AE3413F4F26E00CB427C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DDD76E413D747F800D5919E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9219AE3713F4F27700CB427C /* Skype.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9219AE3213F4F26E00CB427C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9219AE3313F4F26E00CB427C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DDD76F813D747F800D5919E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7DDD76F913D747F800D5919E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7DDD76FB13D747F800D5919E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skype/Skype-Prefix.pch";
+				INFOPLIST_FILE = "Skype/Skype-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/SIMBL/Plugins";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = Skype;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7DDD76FC13D747F800D5919E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skype/Skype-Prefix.pch";
+				INFOPLIST_FILE = "Skype/Skype-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/SIMBL/Plugins";
+				PRODUCT_NAME = Skype;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DDD76E213D747F800D5919E /* Build configuration list for PBXProject "Skype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDD76F813D747F800D5919E /* Debug */,
+				7DDD76F913D747F800D5919E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDD76FA13D747F800D5919E /* Build configuration list for PBXNativeTarget "Skype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDD76FB13D747F800D5919E /* Debug */,
+				7DDD76FC13D747F800D5919E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DDD76DF13D747F800D5919E /* Project object */;
+}
