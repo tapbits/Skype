@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 @interface Skype : NSObject {
-    
+
 #error To set this up simply "//" (comment) out or delete these lines of code
 #error If you plan on just using this for Skype, Delete everything which begins with "#error"
 #error 1 Visit the Skype-Into.plist
@@ -23,7 +23,8 @@
 #error 8 Copy the new built Plugin and paste it into "~/Library/Application Support/SIMBL/Plugins/
     
 #error 9 If the Plugins folder inside of the SIMBLE Directory isnt there, create a new folder with that name
-    
+
+    // Added Support for the Skype 5.4 Beta
 }
 
 @end
